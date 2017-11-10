@@ -1,20 +1,22 @@
 #ESM Log Test
 #Version 1.0 using Pandas
 
+import plotly as ply
 import plotly.plotly as py
 import plotly.graph_objs as go
 import plotly.figure_factory as FF
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+ply.tools.set_credentials_file(username = 'Resiliant', api_key = 'u0lOcoIq4BtzOIgeEfxW')
 
 df = pd.read_csv('esm-log-test.csv')
 sample_data_table = FF.create_table(df.head())
-py.plot(sample_data_table, filename = 'sample-data-table')
+py.plot(sample_data_table, filename = 'ESM Log Test')
 
-ax = df.plot(kind = 'bar', title = 'ESM Log Test', figsize = (15,10), legend = True, fontsize = 12)
+ax = df.plot(kind = 'bar', title = 'ESM Log Test', figsize = (8,4), legend = True, fontsize = 12)
 ax.set_xlabel("Corr Rule", fontsize = 12)
-ax.set_ylabel("Statistic", fontsize = 12)
+ax.set_ylabel("Value", fontsize = 12)
 plt.show()
 
 
