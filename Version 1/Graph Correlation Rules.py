@@ -3,7 +3,6 @@
 
 import matplotlib
 import matplotlib.pyplot as plt
-#import matplotlib.patches as patches
 import pandas as pd
 import numpy as np
 
@@ -11,25 +10,10 @@ import numpy as np
 #df = pd.read_csv('/Users/pcmaster/Documents/GitHub/ESM-Logs-Script/Correlation Rulesets/47-4000023.csv')
 df = pd.read_csv('C:/Users/rgarbacz/Documents/GitHub/ESM-Logs-Script/Correlation Rulesets/47-4000116.csv')
 
-#ind = np.arrange(N)
-#LABELS = ["Ruleset", "Rule 1", "Rule 2", "Trigger 1"]
-
 #Plot from dataframe as bar graph with subplots for each statistic; X-Axis represents Ruleset and corresponding rules/triggers; change title to reflect which Ruleset is being shown
 ax = df.plot(kind = 'bar', title = '47-4000116', subplots = True, sharex = 'True', figsize = (15,9), legend = True, fontsize = 12)
 
-#plt.xticks('Ruleset', 'Rule 1', 'Rule 2', 'Trigger 1')
-#xticks(arange(4), ('Ruleset', 'Rule 1', 'Rule 2', 'Trigger 1'))
-
-#set_xticks(df.index)
-#set_xtickslabels(df.C, rotation=90)
-
-#for idx, label in enumerate(list(df.index)):
-#	for acc in df.columns:
-#		value = np.round(df.ix[idx][acc], decimals = 2)
-#		ax.annotate(value, (idx,value), xytext = (0, 15), textcoords = 'offset points')
-
-#for p in ax.patches:
-#    ax.annotate(str(p.get_height()), (p.get_x() * 1.005, p.get_height() * 1.005))
+plt.xticks( np.arange(4) , ('Ruleset','Rule 1','Rule 2','Trigger 1'), rotation = 90)
 
 #Plot graph
 plt.show()
