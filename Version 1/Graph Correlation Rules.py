@@ -3,7 +3,7 @@
 
 import matplotlib
 import matplotlib.pyplot as plt
-import matplotlib.patches as patches
+#import matplotlib.patches as patches
 import pandas as pd
 #import numpy as np
 
@@ -11,7 +11,11 @@ import pandas as pd
 #df = pd.read_csv('/Users/pcmaster/Documents/GitHub/ESM-Logs-Script/Correlation Rulesets/47-4000023.csv')
 df = pd.read_csv('C:/Users/rgarbacz/Documents/GitHub/ESM-Logs-Script/Correlation Rulesets/47-4000116.csv')
 #Plot from dataframe as bar graph with subplots for each statistic; X-Axis represents Ruleset and corresponding rules/triggers; change title to reflect which Ruleset is being shown
-ax = df.plot(kind = 'bar', title = '47-4000116', subplots = True, sharex = 'True', figsize = (15,9), legend = True, fontsize = 12)
+ax = df.plot(kind = 'bar', title = '47-4000116', subplots = True, sharex = 'True', figsize = (15,9), legend = True, fontsize = 12, xticks = True)
+
+
+#set_xticks(df.index)
+#set_xtickslabels(df.C, rotation=90)
 
 #for idx, label in enumerate(list(df.index)):
 #	for acc in df.columns:
