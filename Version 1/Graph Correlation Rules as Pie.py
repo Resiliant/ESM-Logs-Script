@@ -27,11 +27,11 @@ df = pd.read_csv('C:/Users/rgarbacz/Documents/GitHub/ESM-Logs-Script/Correlation
 
 plt.style.use('ggplot')
 colors = plt.rcParams['axes.color_cycle']
-values = df['Ruleset']
+values = df['Ruleset', 'Rule 1', 'Rule 2', 'Trigger 1']
 
 fig, axes = plt.subplots(nrows=2, ncols=2)
 for ax, col in zip(axes.flat, df.columns):
-    ax.pie(df[col], labels=df.index, autopct= '%.02f', colors=colors)
+    ax.pie(values = values, labels=df.index, autopct= '%.02f', colors=colors)
     ax.set(ylabel='', title=col, aspect='equal')
 
 axes[0, 0].legend(bbox_to_anchor=(0, 0.5))
