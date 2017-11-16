@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+#DEVELOPER NOTES:
+#   Will need to explore method to show exact statistical values for each bar instead of determining value from yticks
+
 #Import .csv log from source folder, TBD by Consultant; top path is MacOS, bottom path is Windows
 #df = pd.read_csv('/Users/pcmaster/Documents/GitHub/ESM-Logs-Script/Correlation Rulesets/47-4000023.csv')
 df = pd.read_csv('C:/Users/rgarbacz/Documents/GitHub/ESM-Logs-Script/Correlation Rulesets/47-4000116.csv')
