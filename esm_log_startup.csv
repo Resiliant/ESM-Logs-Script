@@ -1,0 +1,105 @@
+9/27/17 18:25,ESM IP,10.75.102.10,,
+9/27/17 18:25,ESM Date,,,
+9/27/17 18:25,ESM Buildstamp,10.75.102.10,10.0.3 20170605173657,
+9/27/17 18:25,ESM Raid,10.75.102.10,[27:21]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[27:22]Failed,Bad
+9/27/17 18:25,ESM Raid,10.75.102.10,[27:23]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[27:24]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[27:28]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[27:29]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[27:30]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[27:31]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[27:25]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[27:26]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:8]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:9]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:10]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:11]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:11]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:15]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:11]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:11]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:10]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:87]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:88]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:89]Hotspare  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:90]Online  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:15]Hotspare  Spun Up,OK
+9/27/17 18:25,ESM Raid,10.75.102.10,[11:15]Online  Spun Up,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,/dev/sda3 1.9T 313G 1.5T 18% /,good
+9/27/17 18:25,ESM Disk,10.75.102.10,/dev/sda1 976M 45M 882M 5% /boot,good
+9/27/17 18:25,ESM Disk,10.75.102.10,/dev/sdb1 13T 403G 13T 4% /data_hd,good
+9/27/17 18:25,ESM Disk,10.75.102.10,shm 48G 4.0K 48G 1% /dev/shm,good
+9/27/17 18:25,ESM Disk,10.75.102.10,/dev/sdc1 9.1T 1.8T 7.0T 21% /das1_hd,good
+9/27/17 18:25,ESM Disk,10.75.102.10,/dev/sde 279G 113G 166G 41% /index_hd,average
+9/27/17 18:25,ESM CPU,10.75.102.10,The average CPU utilization is 4.00,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.06,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.00,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.00,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.05,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.00,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.19,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.02,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.00,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.00,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.00,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.00,OK
+9/27/17 18:25,ESM Disk,10.75.102.10,The average disk utilization is 0.10,OK
+9/27/17 18:25,Data Source Activity,10.75.102.10,Source IP Risk_Agent last reported in on 09/27/2017 18:25:39.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Source IP Risk last reported in on 09/27/2017 18:25:39.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Source User Risk_Agent last reported in on 09/27/2017 18:25:39.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Destination IP Risk_Agent last reported in on 09/27/2017 18:25:39.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Destination IP Risk last reported in on 09/27/2017 18:25:39.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Source User Risk last reported in on 09/27/2017 18:25:39.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,ACE.16 last reported in on 09/27/2017 18:25:39.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,EricTest last reported in on 09/27/2017 18:25:39.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Rule Correlation last reported in on 09/27/2017 18:25:39.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,InterSect SNARE - 10.75.126.31 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Linux - 10.75.126.32 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Enterasys NAC - 10.75.126.30 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,InterSect SNARE - 10.75.126.33 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Juniper Netscreen - 10.75.126.35 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Lumension Bouncer - 10.75.126.37 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,F5 BIG-IP - 10.75.126.36 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,UnityOne - 10.75.126.29 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Dell SONIC - 10.75.126.34 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,McAfee Firewall - 10.75.126.25 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,BlueCoat ProxySG - 10.75.126.22 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Secure ACS - 10.75.126.23 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Cisco IOS - 10.75.126.26 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,SourceFire - 10.75.126.24 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Cisco Pix - 10.75.126.21 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,REC.11 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Cisco Pix - 10.75.126.27 last reported in on 09/27/2017 18:21:31.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,HA_REC.20.21.22 last reported in on 09/27/2017 18:18:45.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,DEM.15 last reported in on 09/27/2017 18:16:45.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,SEF Test from ESM last reported in on 09/05/2017 17:12:14.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,AS400 Test last reported in on 08/30/2017 06:15:56.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,Linux - 10.75.126.28 last reported in on 08/29/2017 04:07:58.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,JBoss Test last reported in on 08/22/2017 03:53:57.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,ADM.14 last reported in on 08/09/2017 03:34:33.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10,WMI_Test - 10.75.76.24 last reported in on 06/23/2017 18:58:24.000,
+9/27/17 18:25,Data Source Activity,10.75.102.10, Local ESM has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, Default Policy has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, Syslog Dummy has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, ELM.13 has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, Syslog Dummy has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, Dummy_MSSQL has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, Dummy ADM Device has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, IPS.12 has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, NSM Sys has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, NSM has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, chris epo has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, epotest has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, Euphoria has not reported in,
+9/27/17 18:25,Data Source Activity,10.75.102.10, WIN2012R2 has not reported in,
+9/27/17 18:25,ESM Red Flag,10.75.102.10,09/27/2017 18:24:04.000 MC=54-(h-lsi) raid: 0  vol: 0  status: Degraded,
+9/27/17 18:25,ESM Red Flag,10.75.102.10,09/27/2017 18:24:04.000 MC=54-(h-lsi) card: 0  enclosure: 27  slot: 1  status: Failed,
+9/27/17 18:25,ESM Red Flag,10.75.102.10,09/27/2017 18:21:31.000 Events retrieved contained possibly incorrect values: 13709 events with 'Last Time' values more than one hour in the future,
+9/27/17 18:25,ESM Red Flag,10.75.102.10,09/27/2017 18:15:27.000 Events retrieved contained possibly incorrect values: 1219 events with 'Last Time' values more than one hour in the future,
+9/27/17 18:25,ESM Red Flag,10.75.102.10,09/27/2017 18:11:17.000 Events retrieved contained possibly incorrect values: 7298 events with 'Last Time' values more than one hour in the future,
+9/27/17 18:25,ESM Red Flag,10.75.102.10,09/27/2017 18:09:19.000 MC=54-(h-lsi) card: 0  enclosure: 27  slot: 1  status: Failed,
+9/27/17 18:25,ESM Red Flag,10.75.102.10,09/27/2017 18:09:19.000 MC=54-(h-lsi) raid: 0  vol: 0  status: Degraded,
+9/27/17 18:25,ESM Red Flag,10.75.102.10,09/27/2017 18:05:04.000 Events retrieved contained possibly incorrect values: 1226 events with 'Last Time' values more than one hour in the future,
+9/27/17 18:25,ESM Red Flag,10.75.102.10,09/27/2017 18:00:55.000 Events retrieved contained possibly incorrect values: 4015 events with 'Last Time' values more than one hour in the future,
+9/27/17 18:25,ESM Red Flag,10.75.102.10,09/27/2017 17:54:52.000 Events retrieved contained possibly incorrect values: 1354 events with 'Last Time' values more than one hour in the future,
