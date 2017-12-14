@@ -7,7 +7,23 @@ with open('ess_health.csv', 'r') as f:
   raw_list = list(reader)
 
 for row in raw_list:
-    del row[0]
+    if row[1] == "ESM IP":
+        esmIP = row[1]
+    elif row[1] == "ESM Date":
+        esmDate = row[1]
+    elif row[1] == "ESM Buildstamp":
+        esmBuild = row[1]
+    elif row[1] == "ESM Disk":
+        esmIP = row[1]
+    elif row[1] == "ESM CPU":
+        esmIP = row[1]
+    elif row[1] == "ESM Disk":
+        esmIP = row[1]
+    elif row[1] == "Data Source Activity":
+        esmIP = row[1]
+    else:
+        print("next")
+        next
 
 print(raw_list)
 # count of total disk checks = 0
