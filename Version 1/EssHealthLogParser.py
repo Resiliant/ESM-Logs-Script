@@ -6,6 +6,8 @@ with open('ess_health.csv', 'r') as f:
   reader = csv.reader(f)
   raw_list = list(reader)
 
+data = []
+
 for row in raw_list:
     if row[1] == "ESM IP":
         esmIP = row[1]
@@ -14,18 +16,19 @@ for row in raw_list:
     elif row[1] == "ESM Buildstamp":
         esmBuild = row[1]
     elif row[1] == "ESM Disk":
-        esmIP = row[1]
+        data.append(row[1])
     elif row[1] == "ESM CPU":
-        esmIP = row[1]
+        data.append(row[1])
     elif row[1] == "ESM Disk":
-        esmIP = row[1]
+        data.append(row[1])
     elif row[1] == "Data Source Activity":
-        esmIP = row[1]
+        data.append(row[1])
     else:
         print("next")
         next
+# for row in data:
+#     del
 
-print(raw_list)
 # count of total disk checks = 0
 # count of disk OKs set = 0
 totalDisks = 0
@@ -65,11 +68,11 @@ diskOK = 0
 #
 #
 #
-# data = [[  66386,  174296,   75131,  577908,   32015],
-#         [  58230,  381139,   78045,   99308,  160454],
-#         [  89135,   80552,  152558,  497981,  603535],
-#         [  78415,   81858,  150656,  193263,   69638],
-#         [ 139361,  331509,  343164,  781380,   52269]]
+# # data = [[  66386,  174296,   75131,  577908,   32015],
+# #         [  58230,  381139,   78045,   99308,  160454],
+# #         [  89135,   80552,  152558,  497981,  603535],
+# #         [  78415,   81858,  150656,  193263,   69638],
+# #         [ 139361,  331509,  343164,  781380,   52269]]
 #
 # columns = ('Freeze', 'Wind', 'Flood', 'Quake', 'Hail')
 # rows = ['%d year' % x for x in (100, 50, 20, 10, 5)]
