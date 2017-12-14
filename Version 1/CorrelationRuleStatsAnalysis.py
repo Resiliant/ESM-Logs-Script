@@ -22,7 +22,7 @@ root.filename =  filedialog.askopenfilename(initialdir = dir_path,title = "Selec
 # Read source log data into data frame
 df = pd.read_csv(root.filename)
 #Plot from dataframe as bar graph with subplots for each statistic; X-Axis represents Ruleset and corresponding rules/triggers; change title to reflect which Ruleset is being shown
-ax = df.plot(kind = 'pie', title = '47-4000116', subplots = True, sharex = 'True', legend = True, fontsize = 12) #, figsize = (15,9)
+ax = df.plot(kind = 'pie', title = '47-4000116', subplots = True, sharex = 'True', legend = True, figsize = (15,9), fontsize = 12) 
 #Apply Labels to each column
 plt.xticks( np.arange(4) , ('Ruleset','Rule 1','Rule 2','Trigger 1'), rotation = 0)
 #Plot graph
