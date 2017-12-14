@@ -1,6 +1,7 @@
 #ESM Log Pull/Graph
 #Version 1.5 using matplotlib module
-
+import matplotlib
+matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
